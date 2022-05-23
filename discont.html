@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+     <meta charset="utf-8">
+     <title>Иван Пешков. РГЗ по курсу "Интернет-программирование"</title>  
+     <link rel="stylesheet" href="main.css">
+     <script src="script.js"></script>
+
+     </head>
+
+     <body onload="generateMenu()">
+         <header>
+            
+            <marquee behavior = 'alternate'>САМЫЙ КРУПНЫЙ МАГАЗИН ГИТАР В НОВОСИБИРСКЕ</marquee></h1>
+            </header>
+
+          <h1><div class="image-container">
+            <div class="text">3_TONE</div>
+          </div></h1> 
+          <nav class="main-menu">
+             <ul></ul>
+            </nav>
+
+            <main>
+                <div class="sale-wrap">
+                    <div class="sale-inner">
+                    <div class="sale-info">
+                    <div class="sale-info-top">ДО 50%</div>
+                    <div class="sale-info-bottom">ДО 50%</div>
+                    </div>
+                    <div class="sale-text">
+                    <p>Каждый вторник</p>
+                    <h3>Приходи за покупкой мечты</h3>
+                    <p>При покупке от двух товаров третий подарим</p>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="coupon">
+                        <div class="container">
+                          <h3>СКИДКА ПРИ САМОВЫВОЗЕ</h3>
+                        </div>
+                        <img src="sam.jpg" alt="Avatar" style="width:100%;">
+                        <div class="container" style="background-color:rgb(255, 255, 255)">
+                          <h2><b>СКИДКА ПРИ САМОВЫВОЗЕ 5%</b></h2>
+                          <p>Распространяется на заказы от 10000 рублей</p>
+                        </div>
+                        <div class="container">
+                          <p>При получении заказа скажите: <span class="promo">ХОЧУСКИДКУ</span></p>
+                          <p class="expire">Действителен до: 1 июня, 2022</p>
+                        </div>
+                      </div>
+
+                      <div class="coupon">
+                        <div class="container">
+                          <h3>ДАРИМ СКИДКИ В ДЕНЬ РОЖДЕНИЯ </h3>
+                        </div>
+                        <img src="birthday.jpg" alt="Avatar" style="width:100%;">
+                        <div class="container" style="background-color:white">
+                          <h2><b>ПОРАДУЙТЕ СВОИХ БЛИЗКИХ В ДЕНЬ РОЖДЕНИЯ, ПОДАРИТЕ СЕРТИФИКАТ ЛЮБОГО НОМИНАЛА И СКИДКУ 15%</b></h2>
+                          <p>Акции действует при покупке купона номиналом от 10000 рублей</p>
+                        </div>
+                        <div class="container">
+                          <p>При покупке сертификата вводите промокод и получите скидку 5%: <span class="promo">BIRTHDAY</span></p>
+                          <p class="expire">Акции действует только в Новосибирске</p>
+                        </div>
+                      </div>
+                      
+            </main>
+        <footer>
+           &copy;  2022 © Музыкальный интернет-магазин 
+            <h1>
+                Новосибирск, Россия 2022
+            </h1>
+        </footer>
+        <div class="overlay" onclick="hideModal()"></div>
+        <div class="modal">
+           <div class="message">
+              </div>
+              <button onclick="hideModal()"></button>
+        </div>
+      </body>
+ </html>   

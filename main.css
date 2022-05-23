@@ -87,7 +87,7 @@ footer a {
     transition: all 200ms 150ms;
     transform: scale(0);
 
-    widht: 300px;
+    width: 300px;
     position: fixed;
     left: 50%;
     top: 50px;
@@ -160,7 +160,7 @@ h2 {
   .sale-inner {
     position: relative;
     height: 100%;
-    background: repeating-linear-gradient(-45deg, #790505, #bc2423 7px, #910707 8px, #910707 13px);
+    background: repeating-linear-gradient(-45deg, rgb(158, 90, 0), #be770c 7px, rgb(158, 90, 0), #be770c 13px);
   }
   .sale-text {
     position: absolute;
@@ -180,7 +180,7 @@ h2 {
     color: rgba(255,255,255,.8);
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    background: #bc2423;
+    background: #be770c;
     box-shadow: 0 2px 5px rgba(0,0,0,.2), 0 -2px 5px rgba(0,0,0,.2);
   }
   .sale-text h3 {
